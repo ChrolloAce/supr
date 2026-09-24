@@ -1,0 +1,107 @@
+{
+  "identifier" : "SUPR",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6801000846",
+    "_developerTeamID" : "5L2794TA8F"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "20000",
+      "localizations" : [
+
+      ],
+      "name" : "SUPR Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1002",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited captures, the full dex and every board.",
+              "displayName" : "SUPR Pro Weekly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "supr.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "SUPR Pro Weekly",
+          "subscriptionGroupID" : "20000",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited captures, the full dex and every board.",
+              "displayName" : "SUPR Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "supr.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "SUPR Pro Monthly",
+          "subscriptionGroupID" : "20000",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1000",
+          "introductoryOffer" : {
+            "internalID" : "1500",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlimited captures, the full dex and every board.",
+              "displayName" : "SUPR Pro Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "supr.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "SUPR Pro Yearly",
+          "subscriptionGroupID" : "20000",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

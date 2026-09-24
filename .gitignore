@@ -1,0 +1,10 @@
+# Never commit live API keys (copy Secrets.example.plist -> Secrets.plist)
+Revdex/Secrets.plist
+
+build/
+DerivedData/
+xcuserdata/
+*.xcodeproj/xcuserdata/
+__pycache__/
+*.pyc
+.DS_Store
